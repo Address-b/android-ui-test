@@ -35,6 +35,6 @@ class BookRepository {
 
     suspend fun getBookImageBitmap(bookId: Int): Bitmap {
         delay(300)
-        return loadBitmapFromURL("https://picsum.photos/400/400"+bookId)
+        return loadBitmapFromURL("https://picsum.photos/400/400")
     }
 }

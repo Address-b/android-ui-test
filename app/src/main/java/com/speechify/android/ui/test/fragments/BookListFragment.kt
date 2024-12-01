@@ -20,6 +20,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
 
+// I think this is not difficult it is just need a little bit of focus
 class BookListFragment : Fragment() {
 
     private var _binding: FragmentBookListBinding? = null
